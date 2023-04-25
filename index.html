@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WF Forros PVC</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@100&family=Open+Sans&display=swap');
+    </style>
+    <link rel="stylesheet" href="./styles/styles.css    ">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+        <img draggable="false" id="logotype_colour" src="iconsets/logotype/Nova Logo COLOR.webp" alt="wf logo">
+        <div id="circle_Header"></div>
+
+        <nav>
+            <ul>
+                <li><a draggable="false" href="#about_usSite">Quem Somos</a></li>
+                <li><a draggable="false" href="#contacts_Site">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- CONTEÚDO -->
+
+    <main>
+
+        <div id="circleCenter">
+            <img draggable="false" id="circleCenterIMG" src="iconsets/materials/Desk-PVC ceiling.webp" alt="escritorio exemplificando o teto 
+            feito em folhas de pvc marrons">
+
+        </div>
+        <img draggable="false" id="forroPVC" src="iconsets/materials/CeilingPanels.webp" alt="forroPVC">
+
+
+
+        <section id="landing_page" class="landing_page">
+
+            <p class="tittle_Content" id="landing_titlle">Mudança de Visual, Reforma?</p>
+
+            <p class="text_Content">Somos a WF a sua melhor escolha, montagem e manutenções
+                <br>em Forros PVC & Acartonados é com a gente!
+            </p>
+
+            <p class="text_Content">Não espere mais! Transforme seus projetos em realidade,
+                <br>entre em contato e faça um orçamento sem <br> compromisso.
+            </p>
+
+            <div class="btn" id="ShowFormPage"><a draggable="false" href="#ScheduleSite">FAÇA UM ORÇAMENTO</a></div>
+
+        </section>
+
+        <section id="about_usSite">
+
+            <div class="about_us">
+
+                <p class="tittle_Content">Quem Somos?</p>
+
+                <p class="text_Content">A WF surgiu na necessidade de oferecer um serviço de<br>
+                    instalação de forros em PVC com qualidade e eficiência.
+                    <br>Com anos de experiência no mercado, nossa equipe está<br>
+                    pronta para lhe atender!
+                </p>
+            </div>
+
+            <ul class="propositions">
+                <li><img draggable="false" src="iconsets/navegation/webp/clipboard-list.webp"
+                        alt="prancheta reforçando a ideia de que tudo tem seu controle e padrão de qualidade">
+                    <p class="font_Prepositons">QUALIDADE<br></p>
+                    <p class="font_Prepositons">Em tudo que fazemos <br>e em primeiro lugar.</p>
+                </li>
+
+                <li> <img draggable="false" src="iconsets/navegation/webp/handshake.webp"
+                        alt="aperto de mãos garantindo o compromisso">
+                    <p class="font_Prepositons">COMPROMISSO<br></p>
+                    <p class="font_Prepositons">O nosso comprometimento,<br>é a sua satisfação.</p>
+                </li>
+
+                <li>
+                    <img draggable="false" src="iconsets/navegation/webp/time-check.webp"
+                        alt="relogio exemplificando agilidade">
+                    <p class="font_Prepositons">EFICIÊNCIA<br></p>
+                    <p class="font_Prepositons">Agilidade em cada um <br>de nossos Projetos.</p>
+                </li>
+            </ul>
+
+        </section>
+
+        <section id="ScheduleSite">
+            <div class="serviceRequest">
+                <p class="tittle_Content">Ninguém conhece mais<br>sobre seu projeto que<br>você mesmo!</p>
+                <p class="tittle_Content">OU</p>
+                <p class="tittle_Content">Se não souber, sem problemas<br>Solicite uma Visita</p>
+            </div>
+            <div class="btn" id="Schedule"><a draggable="false" href="#"><img draggable="false"
+                        src="iconsets/navegation/webp/pin_location.webp" alt="pin de localização">SOLICITAR VISITA</a>
+            </div>
+
+            <div class="containerForm">
+                <form action="#" method="post" id="form">
+
+                    <fieldset>
+
+                        <p class="tittle_Content">Eu gostaria de:</p><br>
+                        <div class="FormOptionsConfig">
+                            <label for="material" class="inputLabel">Material:</label>
+                            <select name="material" id="sMaterial" required>
+                                <option disabled selected>SELECIONE</option>
+                                <option value="PVC">PVC</option>
+                                <option value="ACARTONADO">ACARTONADO</option>
+                            </select>
+                        </div>
+                        <div class="FormOptionsConfig">
+                            <label for="cor" class="inputLabel">Tonalidade:</label>
+                            <select name="cor" id="sCor" required>
+                                <option disabled selected>SELECIONE</option>
+                                <option value="Branco">Branca</option>
+                                <option value="Colorido">Colorida</option>
+                            </select>
+                        </div>
+                        <div class="FormOptionsConfig">
+                            <label for="espessura" class="inputLabel">Milimetragem:</label>
+                            <select name="espessura" id="sEspessura" required>
+                                <option disabled selected>SELECIONE</option>
+                                <option value="7">7mm</option>
+                                <option value="8">8mm</option>
+                                <option value="10">10mm</option>
+                            </select>
+                        </div>
+                        <div class="FormOptionsConfig">
+                            <label for="area" class="inputLabel">Área em Mts²:</label>
+                            <input type="number" name="nArea" id="area" placeholder="Digite aqui" required>
+                        </div>
+                        <div class="projectInfo">
+                            <label for="textProject">Conte-nos sobre o seu Projeto</label><br>
+                            <div id="mts">Mts²</div>
+                            <textarea name="projectInfo" id="projectInfo"></textarea>
+                        </div>
+
+                        <div class="btn" id="sendForm"><a draggable="false" href="#">SOLICITAR ORÇAMENTO</a></div>
+
+                    </fieldset>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+
+    <section id="contacts_Site">
+        <footer>
+
+            <img id="logotype_white" src="iconsets/logotype/Nova-Logo-WHITE.webp" alt="wf logo branco">
+
+            <div class="social_Media">
+
+                <img id="logo_instagram" src="iconsets/socialMidias/webp/social-instagram.webp" alt="logo do instagram">
+                <img id="logo_whatsapp" src="iconsets/socialMidias/webp/social-whatsapp.webp" alt="logo do whatsapp">
+                <div class="contacts_info">
+                    <p>site.Insta</p>
+                    <br>
+                    <p>(XX)X XXXX-XXXX</p>
+                </div>
+            </div>
+
+
+
+            <div id="copyright">
+                <p>Design By</p>
+                <img  draggable="false" id="logo_dev" src="iconsets/LogomarcaJV/PNG/Logotype_Dourado.png" alt="logo do criador do Design">
+                <p>José Victor &copy; 2023</p>
+            </div>
+
+
+
+
+        </footer>
+    </section>
+</body>
+
+</html>
