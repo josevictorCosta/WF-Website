@@ -7,7 +7,7 @@ As this is my first project, I decided to keep it simple in order to become fami
 
 Thank you in advance for your understanding, all feedback is positive and very welcome.
 
-Obrigado
+Greetings
 
 # WF-Website
 Primeiro projeto Front-End desenvolvido em HTML5 e CSS3.
